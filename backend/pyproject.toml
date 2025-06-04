@@ -1,0 +1,22 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend for the Orchids SWE Intern Challenge"
+authors = [
+    {name = "Diksha", email = "mauryadiksha0@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "uvicorn[standard]>=0.20.0", # For running the FastAPI app
+    "httpx>=0.24.0", # For making HTTP requests
+    # "pydantic>=2.0.0" # Often comes as a dependency of fastapi
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
