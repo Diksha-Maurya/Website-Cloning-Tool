@@ -12,6 +12,10 @@ dependencies = [
     "uvicorn[standard]>=0.20.0", # For running the FastAPI app
     "httpx>=0.24.0", # For making HTTP requests
     # "pydantic>=2.0.0" # Often comes as a dependency of fastapi
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.1.0",
+    "browserbase>=1.4.0",
+    "playwright>=1.52.0",
 ]
 
 [build-system]
