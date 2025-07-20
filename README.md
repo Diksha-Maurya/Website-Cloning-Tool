@@ -1,6 +1,6 @@
-# Orchids SWE Intern Challenge: AI Website Cloner
+# Website-Cloning-Tool - AI Website Cloner
 
-This project is a submission for the Orchids Software Engineering Internship Challenge. It's a web application that takes a public website URL, scrapes its content (including JavaScript-rendered parts), and then uses a Large Language Model (Google Gemini) to attempt an aesthetic clone of the original website in HTML.
+It's a web application that takes a public website URL, scrapes its content (including JavaScript-rendered parts), and then uses a Large Language Model (Google Gemini) to attempt an aesthetic clone of the original website in HTML.
 
 ## Project Overview
 
@@ -115,7 +115,6 @@ You'll need to run both the backend and frontend servers.
 
 * **Scraping Reliability & Approach:**
     * This project uses a **local Playwright instance** for website scraping. This allows the tool to process JavaScript-heavy websites and retrieve fully rendered HTML, which is crucial for providing accurate design context to the LLM.
-    * **Acknowledgement regarding Production Environments:** The Orchids Challenge guidelines wisely caution that "Spinning up local browsers can be a slow and expensive process in production settings" and suggest considering cloud-hosted solutions. While local Playwright demonstrates the technical capability to handle complex sites for this challenge, for a production-grade system, a cloud-hosted browser solution (such as Browserbase or Hyperbrowser, as suggested in the challenge) would be implemented. This would enhance scalability, manage resources efficiently, and offer better resilience against IP blocks or firewalls.
 
 * **LLM-Based Cloning:**
     * The goal is **aesthetic similarity**, not a pixel-perfect or fully functional replica.
