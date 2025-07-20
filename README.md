@@ -1,4 +1,4 @@
-# Website-Cloning-Tool - AI Website Cloner
+# Website Cloning Tool - (AI Website Cloner)
 
 It's a web application that takes a public website URL, scrapes its content (including JavaScript-rendered parts), and then uses a Large Language Model (Google Gemini) to attempt an aesthetic clone of the original website in HTML.
 
