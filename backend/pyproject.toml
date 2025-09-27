@@ -1,7 +1,7 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Backend for the Orchids SWE Intern Challenge"
+description = "Website-Cloning-Tool"
 authors = [
     {name = "Diksha", email = "mauryadiksha0@gmail.com"},
 ]
