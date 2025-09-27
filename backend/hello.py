@@ -7,7 +7,7 @@ import uvicorn
 # Create FastAPI instance
 app = FastAPI(
     title="Orchids Challenge API",
-    description="A starter FastAPI template for the Orchids Challenge backend",
+    description="Website-Cloning-Tool backend",
     version="1.0.0"
 )
 
